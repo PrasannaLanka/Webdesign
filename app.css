@@ -1,0 +1,148 @@
+body {
+	font-family: "Nunito",sans-serif;	    
+}
+
+h2 {
+    color: #1c38ea;
+    font-weight: 150;
+    font-size: 2.5rem;
+   
+ }
+ 
+ p {
+     color: #5e0726;
+     font-weight: 100;
+     font-size: 1.5rem;
+     line-height: 2;
+ }
+ 
+
+.navbar{
+    background: rgb(255,229,239);
+    background: linear-gradient(90deg, rgba(255,229,239,1) 0%, rgba(210,255,252,1) 100%);
+    font-family: "Nunito", sans-serif;
+}
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+    color: rgb(66, 29, 214);
+}
+
+#mainNavbar .nav-link:hover {
+    color: #EA1C2C;
+}
+
+
+
+
+.navbar.scrolled {
+    background: rgb(255,171,203);
+    background: linear-gradient(90deg, rgba(255,171,203,1) 0%, rgba(136,251,243,1) 100%);
+    transition: background 500ms;
+}
+@media (max-width: 1200px) {
+   
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+
+
+.col-2{
+   background-color: rebeccapurple;
+} 
+
+header.topheading {
+    position: relative;
+    overflow: hidden;
+    padding-top: calc(7rem + 72px);
+    padding-bottom: 7rem;
+    background: linear-gradient(0deg, #082575 0%, #000000 100%);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  header.topheading .heading-content {
+    z-index: 1;
+    position: relative;
+  }
+  header.topheading .heading-content .title {
+    font-size: 8rem;
+    font-family: "Courgette", sans-serif;
+  }
+ 
+  header.topheading .bg-circle {
+    z-index: 0;
+    position: absolute;
+    border-radius: 100%;
+    background: linear-gradient(0deg, #0c2b46 0%, #070299 100%);
+  }
+  header.topheading .bg-circle-1 {
+    height: 90rem;
+    width: 90rem;
+    bottom: -55rem;
+    left: -45rem;
+  }
+  header.topheading .bg-circle-2 {
+    height: 50rem;
+    width: 60rem;
+    top: -25rem;
+    right: -25rem;
+  }
+  header.topheading .bg-circle-3 {
+    height: 20rem;
+    width: 20rem;
+    bottom: -10rem;
+    right: 30rem;
+  }
+  header.topheading .bg-circle-4 {
+    height: 30rem;
+    width: 30rem;
+    top: -5rem;
+    right: 35%;
+  }
+  
+
+@media (min-width: 0px) {
+    header.topheading .heading-content .title{
+        font-size: 3rem;
+      }
+}
+
+@media (min-width: 544px) {
+    header.topheading .heading-content .title{
+        font-size: 4rem;
+      }
+}
+
+@media (min-width: 768px) {
+    header.topheading .heading-content .title{
+        font-size: 5rem;
+      }
+    }
+@media (min-width: 992px) {
+    header.topheading {
+        padding-top: calc(10rem + 55px);
+        padding-bottom: 10rem;
+      }
+    header.topheading .heading-content .title{
+        font-size: 6rem;
+      }
+}
+
+
+.footer-items{
+  background-color: #000000;
+  color: wheat;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-size: 0.7rem;
+}
+.footer-items a{
+   color:wheat;
+}
